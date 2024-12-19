@@ -6,7 +6,10 @@ sudo apt-get install git vim tmux htop nmap
 
 # To install
 ```bash
-git clone https://github.com/TvGelderen/server-setup.git .
+git clone https://github.com/TvGelderen/server-setup.git
+mv server-setup/.* .
+rm README.md
+rm -rf server-setup
 rm -rf .git
 ```
 
